@@ -1,0 +1,88 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.header{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.header img{
+  width: 100%;
+}
+.txt{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.txt h1{
+  font-size: 50px;
+}
+
+.btn{
+  text-decoration: none;
+  background-image: linear-gradient(rgb(229, 55, 55), tomato);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: navajowhite;
+}
+
+/* ODER SECTION */
+.txt-black{
+  text-align: center;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container div{
+  padding: 20px;
+  background-color:rgba(17, 13, 13, 0.062) ;
+  margin: 10px;
+ 
+}
+#bg{
+  background:#f24e3f3d ;
+  border: 2px solid #F55240;
+  color: #F55240;
+}
+.txt-black input{
+  border: none;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.411);
+}
+#color1{  
+  background-color:rgba(27, 107, 114, 0.185) ;
+
+}
+#color2{  
+  background-color:rgba(147, 51, 99, 0.144) ;
+}
+#color3{  
+  background-color:rgba(206, 195, 68, 0.158) ;
+
+}
+.box{
+  display: flex;
+  padding-bottom: 100px;
+}
+.half-width{
+  width: 50%;
+  margin: 20px;
+  
+}
+.half-width img{
+  width: 80%;
+
+}
+.footer{
+  text-align: center;
+}
+.footer input{
+  border: none;
+  
+}
