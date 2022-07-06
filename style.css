@@ -30,6 +30,9 @@ body{
   border-radius: 5px;
   border: navajowhite;
 }
+#btn1{
+  padding: 0 100px;
+}
 
 /* ODER SECTION */
 .txt-black{
@@ -68,11 +71,11 @@ body{
 }
 .box{
   display: flex;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 .half-width{
   width: 50%;
-  margin: 20px;
+  margin: 50px;
   
 }
 .half-width img{
@@ -81,8 +84,11 @@ body{
 }
 .footer{
   text-align: center;
+  background-color: #f5524042;
+  padding: 100px;
 }
 .footer input{
   border: none;
+  padding: 10px;
   
 }
